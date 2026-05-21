@@ -1,0 +1,8 @@
+{
+  "name": "linebot-movie-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "axios": "^1.6.0"
+  }
+}
