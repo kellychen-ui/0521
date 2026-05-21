@@ -2,11 +2,24 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>Dialogflow 聊天機器人 Web Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>資訊管理導論 - 電影查詢機器人 Web Demo</title>
+  <style>
+    body { font-family: 'Microsoft JhengHei', sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+    .card { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; max-width: 400px; }
+    h2 { color: #333; margin-bottom: 10px; }
+    p { color: #666; margin-bottom: 30px; font-size: 14px; line-height: 1.5; }
+    .btn { display: inline-block; padding: 12px 30px; background-color: #00c300; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; transition: background 0.3s; }
+    .btn:hover { background-color: #009900; }
+  </style>
 </head>
-<body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f5f6f7; margin: 0;">
+<body>
 
-  <iframe height="430" width="350" src="https://bot.dialogflow.com/d7cb9f7f-4dee-4e49-93a8-3cda41d373dc"></iframe>
+  <div class="card">
+    <h2>🎬 電影查詢聊天機器人</h2>
+    <p>歡迎使用靜宜資管電影查詢系統！本 Demo 網頁已透過 Vercel 成功部署。請點擊下方按鈕開啟聊天機器人進行測試。</p>
+    <a href="https://bot.dialogflow.com/d7cb9f7f-4dee-4e49-93a8-3cda41d373dc" target="_blank" class="btn">開啟聊天機器人 Web Demo</a>
+  </div>
 
 </body>
 </html>
